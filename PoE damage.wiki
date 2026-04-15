@@ -1,0 +1,338 @@
+If you've been playing PoE for a bit, you've probably seen builds that do hundreds of millions, or even billions of damage per second.
+So, you fire up Path of Building, put in a fun skill you want to try and the best weapon you can think of, but quickly get stuck at around a couple million dps. 
+
+Hi, I'm cccfire, and this is an in-depth guide to how damage scaling works in Path of Exile 1.
+
+Damage scaling is all about tradeoffs and balancing different scalars efficiently, and we'll go over common ways that different builds do that.
+
+Firstly, there are two forms of damage in PoE: Hit damage and Damage over Time.
+
+There are also two main types of skills in PoE: Attacks and Spells.
+In general, the base stats for attacks are from the equipped weapon, while the base stats for spells are from the gem itself.
+
+
+== Flat Damage ==
+
+Damage calculation begins at flat damage. 
+Typically, for attacks, the main source of flat damage is from the weapon, while for spells, the flat damage is provided by the spell itself and scales with gem level.
+
+For example, this mirror tier phys bow provides 477 to 1061 flat physical damage, which is an average of 769 physical damage per hit.
+This weapon value is modified by the damage effectiveness of the specific skill using it.
+
+On the other hand, Spark at level 20 provides 104 to 1983 flat lightning damage, which is an average of 1043.5 lightning damage per hit.
+At level 21, this goes up to 114 to 2284 flat lightning damage, or 1142 lightning damage per hit, which is a 9.4% increase in flat damage.
+
+This is why generally spells are considered easier for early progression, because spells get naturally stronger with levels, while attacks require you to upgrade your weapon often. 
+
+This also means that generally speaking, flat damage affixes (the ones that adds x to x damage to spells or attacks) are typically weaker for spells, while for attack skills, flat damage affixes can be significant scalars for your damage.
+
+or damage over time skills, an example would be Vortex, which deals 2772.8 base cold damage per second at level 20.
+
+There are also other means of adding flat damage to a build, typically through converting other resources.
+
+For attacks, this is usually through a stat-stacking mod that gives flat damage per x stat, such as the one on Replica Alberon's Warpath, which gives flat chaos damage per strength. 
+There is also Energy Blade, which converts your energy shield into flat lightning damage at the cost of 50% of your energy shield and your weapon slot, and Ephemeral Edge, which gives 15% of maximum energy shield as flat lightning damage.
+
+There is also the Wrath aura, which gives flat lightning damage to attacks, and the Smite skill, which is an attack that grants an aura that gives you flat lightning damage to attacks. 
+These don't normally give a ton of flat damage, but they scale with gem level and aura effect.
+This can be useful when you can't get much flat damage on your weapon due to some restriction in your build.
+For example, Armour-stacker builds use Replica Dreamfeather to get enormous amounts of % increased damage, so they get most of their flat damage using Wrath and Smite and scaling aura effect and gem level.
+
+For spells, this is usually through something like Sacrifice support, which gives flat chaos damage based on your life, or Archmage support, which gives flat lightning damage based on your unreserved mana.
+Another example is Righteous Fire, which deals flat damage over time based on your maximum life and energy shield.
+There are also ways to have spell flat damage based on your weapon's flat damage, such as Spellblade support or the keyword Battlemage, which you can get from unique items and the Inquisitor ascendancy.
+When you're getting flat damage from an alternative source, scaling gem level becomes less efficient, so usually builds will do one or the other.
+
+
+== Increased Damage == 
+
+Path of Exile has very specific wording. Increased/decreased means the stat is additive, while more/less means the stat is multiplicative. 
+
+Increased % damage is the most common stat for damage. 
+It can be found all over the passive skill tree, in various skill gems, and on items. 
+Only the correct types of damage will apply to each skill.
+For example, by default, Spark will scale off of spell damage, elemental damage, lightning damage, projectile damage, etc. but things like attack damage will not apply.
+All sources of increased % damage are additive with each other. 
+
+Typically, builds want as much increased damage as they can get, as efficiently as possible.
+
+Here are some examples of very efficient ways of getting % damage:
+
+The Taming: The Taming has the mod 40% increased elemental damage with hits and ailments for each type of elemental ailment on enemy. 
+This goes to 48% with catalyst, and potentially even higher using a Volatile Vaal orb.
+For a build like Elemental Hit of the Spectrum, which easily applies at least Shock, Ignite, and Chill, that's 120% increased elemental damage per ring, or 144% with catalyst.
+If you're able to apply Freeze, Scorch, Brittle, and Sap, which is pretty difficult to do, that's up to 336% increased elemental damage per ring. 
+
+Similarly, the cluster jewel notable passive Sadist gives up to 60% damage for one passive point. That's a bit an oversimplification since there is some additional tradeoffs to actually allocating that notable, but it's still very powerful.
+
+Stat-stacking varies in popularity from league to league, but generally, this can also be very efficient, since you're able to get other benefits from that stat as well, most of the time.
+For example, a popular combo is strength-stacking with The Iron Fortress + Iron Will + Crown of Eyes. 
+The Iron Fortress buffs the natural bonus from Strength to become 3% increased Melee physical damage per 10 strength, Iron Will turns that bonus into increased Spell Damage, and Crown of Eyes takes that spell damage and applies it back to attacks at 150% efficiency,
+  giving a total of 4.5% increased attack damage per 10 strength. Typical strength stackers reach anywhere from 2000 strength to the high 3000s. At 2000 strength, this combo gives 900% attack damage. At 3000, that becomes 1350%.
+  
+That's one of the more extreme examples of stat-stacking granting high amounts of % damage.
+The canonical example of stat stacking for damage, stat stackers mostly just rely on the 1% increased damage per 15 attribute suffix on the Simplex amulet, which gets doubled to 2%, so a typical int stacker at 3000 intelligence would get 400% increased damage from that.
+
+Nebulis has become a very common way for casters to get % elemental damage. 
+Getting 90% all max res gets you up to 450% damage, which becomes even more potentially with a volatile vaal orb,
+  and Nebulis has access to buffed synthesised implicit modifiers like explode, double damage, and int or strength stacking mods.
+A lot of builds already go for 90% max res for their defenses, usually through the Chieftain ascendancy Valako, Storm's Embrace or Melding of the Flesh.
+
+12-passive large cluster jewels are a common way to get % damage for stackers and non-stackers alike. 
+With the 35% increased effect prefix, the clusters for specific damage types go up to 16% damage per node;
+  since cluster nodes get multiple other benefits from its affixes, this becomes a very efficient way to get % damage.
+  
+The drop-only % damage against chilled enemies incursion mod on gloves gives up to 50% increased damage with little downside, as it's packaged with t1 cold resistance, which many builds want anyway.
+
+There are also the Transfiguration keywords which make increases of other stats also apply to damage:
+- Transfiguration of Mind grants "Increases and Reductions to Maximum Mana also apply to Damage at 30% of their value"
+- Transfiguration of Soul grants "Increases and Reductions to Maximum Energy Shield also apply to Spell Damage at 30% of their value"
+- Transfiguration of Body grants "Increases and Reductions to Maximum Life also apply to Attack Damage at 30% of their value"
+The unique helmet Crown of the Inward Eye grants all three, but usually you get them through anoint-only notable passives.
+  
+Increased % damage is extremely common and can be found on most gear slots. 
+As a result, it's usually less valuable than other damage stats and is perhaps the damage stat most affected by diminishing returns;
+  while going from 0% increased damage to 100% increased damage doubles your damage, going from 100% to 200% is only a
+  50% more damage, 200% to 300% is only one/thirds more damage, and so on.
+It's important to balance your damage sources.
+If your build has low amounts of % increased damage, then finding more sources of % increased damage will significantly
+  increase your damage.
+
+
+== More Damage ==
+
+Every unique source of % more damage is a separate multiplier, but the same sources of more damage will be additive.
+For example, if you have two unique sources of 50% more damage, that multiplies on top of each other (150% * 150% = 225%225%), as opposed to additive, which would be (100% + 50% + 50% = 200%).
+However, if you have one frenzy charge, you would have 4% more damage, but if you have two frenzy charges, you would 
+  not have 4% more damage * 4% more damage, but since they are the same source of more damage, they would be additive to
+  become a collective 8% more damage.
+  
+Unique sources of more damage does not suffer from the same diminishing returns as increased damage.
+
+Support gems are the most common source of more damage.
+Because of the rarity of more damage, supports that give more damage are typically quite desirable. 
+
+There are multiple variations of double-influenced equipment that give more damage and linked support gems to gems that
+  are socketed.
+
+Usually when you see things like "9-link gloves", some of the affixes aren't literally granting linked supports but 
+  rather give more damage/more skill speed/large amounts of crit multi to socketed gems.
+For non-weapons, usually they're limited by how many actual relevant supports they can grant to a skill.
+For most skills, non-weapons will be capped at 4 to 5 actually useful links.
+
+For example, Righteous Fire has their double-influenced helmet, which can give up to 5 additional useful linked support gems. 
+Spark has their double-influenced gloves, which typically also have around 4-5 additional useful linked supports.
+
+For 12-link weapons, the main tradeoff is the inherent offensive affixes of weapons.
+
+Typically for double-influenced equipments you really just need to tinker around with them in Path of Building.
+
+
+Ascendancies passives also often give more damage. 
+Deadeye's Far Shot gives up to 30% more Damage, Slayer's Bane of Legends gives 10% more Damage if you've Killed Recently and 20% more Damage with Hits and Ailments against Unique Enemies, and Berkserker's Aspect of Carnage gives 40% more damage, just to name a few.
+Typically, these are pretty easy to identify and don't have a ton of nuance.
+It's just a tradeoff with other ascendancy passives, so typically it's simple to compare between them in Path of Building and choose.
+
+
+Frenzy charges are a fairly generic source of more damage. 
+Frenzy charges grant 4% more damage and 4% increased attack speed/cast speed per frenzy charge.
+By default, characters can gain up to a maximum of 3 frenzy charges, which is a 12% more damage boost.
+This maximum can be increased as well. 
+A typical build on the right-hand side of the tree will get +3 to maximum frenzy charges from passives on the tree,
+  landing them at 24% more damage.
+
+Frenzy charges are pretty easy to generate, and so most builds will want to pick at least one way of generating them
+  for an easy damage up.
+  
+Blood rage is the most generic and can be used by any life-based build (so not Chaos Inoculation), but is not the most efficient or reliable. 
+It gives a generic 25% chance to gain a frenzy charge on kill.
+
+There are sources of frenzy charge on kill on the passive tree.
+
+Builds that use a mark skill can get frenzy charges from the mark mastery, 
+  which gives 10% chance to gain a Frenzy Charge when you Hit your Marked Enemy.
+  
+Bow builds can slot in frenzy with manaforged arrows for automatic frenzy charge generation.
+
+Trap and Mine builds typically get frenzy charges from Charged Traps/Charged Mines support respectively.
+
+Elegant Hubris can grant a notable which gives Frenzy Charges on Hit.
+
+The deadeye ascendancy passive Avidity and the deadeye ascendancy node on ascendant both give frenzy charges while moving.
+
+Farrul's Fur and Replica Farrul's Fur gives frenzy charges periodically.
+
+Ralakesh's Impatience can be used to count as having maximum frenzy charges. 
+This is typically used in conjunction with Inner Conviction, a keystone passive granted by Militant Faith which removes
+  the ability to gain frenzy charges and grants more spell damage per power charge.
+Inner Conviction is also a very strong more damage multiplier for spell builds. 
+  
+These are the most common ways to solve frenzy charge generation, but there's various other methods as well.
+
+
+Pain Attunement is a keystone that gives more Spell Damage when on Low Life.
+Typically Low Life is a pretty easy condition to make using Petrified Blood and Arrogance Support.
+Occasionally builds will cheat out Low Life through other means as well.
+However, Pain Attunement can be a very annoying node to path to on the passive tree.
+Nonetheless, usually if a spell build is not Chaos Inoculation and doesn't have anything stopping them from 
+  reserving half their life pool, they will typically go for Pain Attunement as an easy source of more damage
+  
+
+Precise Technique and Elemental Overload are both keystones that grant more damage with the drawback of 
+  losing damage bonuses from critical strikes. 
+These are often niche though, as crit investment has a higher damage ceiling, but for builds that have other avenues of   damage scaling, not having to invest into critical strike chance/multi can open up enough opportunities for the keystones to be worth taking. 
+There are nuances and synergies for both keystones, but they are beyond the scope of this video.
+More information can be found on the wiki.
+
+
+Point Blank is a keystone that lets projectiles deal up to 30% more damage at the start of their movement. This can be useful for projectile builds that have excess clear but want the option for a little more single-target damage to shotgun uniques. 
+
+
+Some auras give % more damage to specific damage types: Zealotry gives % more spell damage, Wrath gives % more spell lightning damage, Malevolence gives % more damage over time, and War Banner gives % more melee physical damage.
+These are scaled by the % increased effect of non-curse auras stat.
+
+
+Herald of Purity gives % more physical damage, and is a nice damage boost to keep in mind for phys conversion builds.
+
+
+= Damage Multipliers: Crit multi and DoT multi =
+
+Hit damage and Damage over Time each have their own multiplier stats.
+
+
+== Critical strikes ==
+
+Hit damage has the Critical Strike mechanic.
+
+Each use of a skill performs a critical strike roll, a random number from 0 to 99.99. 
+If a hit's critical strike chance exceeds the critical strike roll, then the hit damage is multiplied by the skill's critical strike multiplier.
+By default, characters and skills have 150% Critical Strike multiplier, and all relevant sources of crit multi are 
+  additive with each other, but multiplicative with increased damage.
+
+Base critical strike chance is determined by the weapon for attack skills, and is a stat on the gem itself for spell skills.
+
+Weapon base critical strike chance is multiplied by local increases to critical strike chance.
+Spell base critical strike chance typically cannot be changed, with the exception being through Assassin's Ascendancy passive Mystical Infusion, or the unique helmet Sandstorm Visage,
+  both of which sets spell base critical strike chance to be based off of the weapon base critical strike chance of the equipped main-hand weapon.
+
+Spell base critical strike chance is usually around 5-7%, while weapons can raise their base critical strike chance to
+  up to around 15% at the high end, but typically at the high end, 8-9% is enough for attack builds to cap crit.
+In return, the numbers for sources of spell-specific critical strike chance are typically higher.
+
+Additional flat critical strike chance is an uncommonly found stat. 
+Influenced equipment and some essence mods add flat critical strike chance to socketed skills. 
+Support gems like Increased Critical Strikes Support, Overloaded Intensity support, Nightblade support, and Scornful Herald support give
+  additional flat critical strike chance to the supported skill.
+
+Usually flat critical strike chance will specify attacks or spells. 
+Generic flat critical strike chance is extremely rare.
+Since secondary damage, such as explodes, have a base critical strike chance of 0%, adding critical strike chance
+  will allow them to explode, which is quite desirable.
+This is typically done through the Watcher's Eye Hatred mod, which grants up to +1.8% to critical strike chance
+  while affected by Hatred.
+The only other non-legacy sources that grant generic + critical strike chance to skills directly are Pure Talent and the 
+  Assassin ascendancy passive from Ascendant.
+There are a couple legacy sources of flat critical strike chance, but they are beyond the scope of this video.
+  
+There are debuffs that, when applied, can grant the player additional flat critical strike chance against the debuffed enemy.
+Assassin's mark and the cold alternate ailment Brittle are two such examples.
+Because they need to be applied, these are typically less reliable.
+
+After additional critical strike chance is added to the base critical strike chance, this value is multiplied by
+  any increases to critical strike chance.
+
+A lower flat critical strike chance means more increases to critical strike chance are needed to get to 100% critical strike chance.
+
+A skill with 10% flat critical strike chance will need a total of 1000% increased critical strike chance to hit 100%
+  whereas a skill with 6% flat critical strike chance will need a total of 1667% increased critical strike chance to hit 100%.
+
+Increased critical strike chance is a pretty common stat.
+
+Here are some of the most efficient sources of critical strike chance:
+
+Power charges grant 50% increased critical strike chance per power charge, with a default maximum of 3.
+There are three notables on the passive tree that give +1 to maximum power charges and additional max power charges
+  can be gained through things like synth and corruption implicits at high investment.
+
+The auras Precision and Zealotry provide critical strike chance.
+Precision gives up to 58% increased critical strike chance at level 20, which can be increased with level and non-curse aura effect.
+Zealotry gives up to 39% increased spell critical strike chance at level 20, which can also be increased with level and non-curse aura effect.
+
+The following Watcher's Eye mods give significant amounts of critical strike chance as well: 
+(70-100)% increased Critical Strike Chance while affected by Wrath
+(100-120)% increased Critical Strike Chance against Enemies on Consecrated Ground while affected by Zealotry
+
+
+Diamond Flask gives 100% increased critical strike chance and flasks can roll up to 55% increased critical strike chance
+  as a suffix.
+Both values can be increased by flask effect.
+
+At the high end, builds will often use an enkindling orb enchant and the increased effect prefix with Mageblood to get 95% flask effect, bringing this value up to 302.25% increased critical strike chance.
+
+
+Rathpith Globe gives 5% increased spell critical strike chance per 100 player maximum life, which can become a very significant amount for life stacking builds.
+
+
+The unique Choir of the Storm and a Grasping Mail Esh mod allows critical strike chance to be increased by overcapped lightning resistance.
+
+Nadir mode is a jewel that gives 50% critical strike chance per intensity, which has powerful synergies with Overloaded Intensity support and Pinpoint support.
+We will have to see whether this combo survives the next patch though.
+
+
+The Inquisitor ascendancy has Righteous Providence, which provides 1% increased critical strike chance per point of strength or intelligence, whichever is lower.
+This is quite powerful and because of this, Inquisitor is often chosen for its ability to easily cap crit chance.
+
+
+For attacks, the notable Cornered Prey on the passive tree is quite powerful; 
+  it provides 80% increased critical strike chance against bleeding enemies, and the bleeding mastery can give an additional 80% increased critical strike chance against bleeding enemies.
+You'll often see bow and wand builds deal a little bit of physical damage to inflict bleeding on the enemy just for this. 
+
+
+Saboteur's ascendancy passive Calculated Risk and Dance with Death, a keystone from the timeless jewel Brutal Restraint
+  both make your critical strike chance lucky, which means the critical strike roll is performed twice and the lower value is taken. Both come with significant downsides.
+  
+
+There are also two ways to guarantee critical striking.
+One is through Runegraft of the Angler, which makes all hits critical strikes while holding a Fishing Rod.
+Fishing Rods are two-handed weapons which only have one useful stat: cast speed, so effectively you are giving up a weapon slot
+  to make all hits critical strikes.
+Diamond Shrine also guarantees all hits are critical strikes during its effect, and the effect can be gotten
+  from the shrine belt, Golden Charlatan, and the Guardian ascendancy passive that gives a rotating shrine buff.
+Guaranteed critical strikes are often used by builds that rely on secondary damage to easily guarantee their secondary damage critically strikes.
+Since secondary damage has a base critical strike chance of 0%, capping crit normally is extremely difficult.
+Guaranteed critical strikes also mitigates the downsides of things that give less critical strike chance, such as
+  Controlled Destruction support or Marylene's Fallacy.
+
+
+Once a hit succeeds in critically striking, it has its damage multiplied by its critical strike multiplier.
+By default, the critical strike multiplier is 150%.
+
+Crit multi is common, but very desirable.
+All sources of crit multi are additive with each other.
+
+There is such a thing as too much crit multi.
+If your crit multi becomes higher than your increased damage, then gaining increased damage becomes more beneficial
+  than gaining additional crit multi.
+
+
+== DoT multi ==
+
+Damage over Time has Damage over Time Multiplier, or DoT multi for short.
+By default, characters have 100% DoT multi, and all relevant sources of DoT multi are additive with each other, but multiplicative
+  with increased damage.
+Sources of DoT multi are uncommon.
+Usually these are found on weapons, jewels, eldritch glove implicits, and passives on the passive tree at lower values
+  than corresponding crit multi sources.
+However, unlike critical strikes, DoT multi always applies to inflicted damage over time and doesn't have to succeed a roll like how critical strike chance does.
+This makes damage over time much easier to scale at low investment, but limits its damage ceiling significantly.
+
+Cold damage over time can gain 1% Cold DoT multi per 4% overcapped cold resistance from the Cold mastery on the passive tree.
+Because of the limited sources of DoT multi, many damage over time builds end up resorting to using Adorned to stack
+  DoT multi from jewels efficiently at the high end.
+
+Brief aside for ailments here, we will go over ailments in full in a later part.
+Ailments from critical strikes gain +50% to DoT multi. 
+Ailments can be made to use critical strike multiplier instead of DoT multi, but in turn have to scale critical strike chance.
+
+
+

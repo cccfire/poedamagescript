@@ -911,3 +911,11 @@ However, this does mean that damage over time effects can have difficulties when
 But besides exceptional cases, as long as you keep scaling your damage past what PoB tells you is the DoT cap, you should do just fine.
 
 For example, if you're doing Titanic Scarab with 100% delirium on a 70% pack size map, you'd need almost 600 million premitigation dps to hit the dot cap after calculating toughness and delirium fog damage reduction.
+
+
+
+== Outro ==
+
+Hopefully, this should give you all the information you need to understand the damage calculations and decisions in modern Path of Exile 1 builds.
+
+Please like and subscribe !!!

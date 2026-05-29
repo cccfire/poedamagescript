@@ -46,7 +46,7 @@ When you're getting flat damage from an alternative source, scaling gem level be
 
 == Increased Damage == 
 
-Path of Exile has very specific wording. Increased/decreased means the stat is additive, while more/less means the stat is multiplicative. 
+Path of Exile has very specific wording. Increased/reduced means the stat is additive, while more/less means the stat is multiplicative. 
 
 Increased % damage is the most common stat for damage. 
 It can be found all over the passive skill tree, in various skill gems, and on items. 
@@ -310,10 +310,17 @@ By default, the critical strike multiplier is 150%.
 Crit multi is common, but very desirable.
 All sources of crit multi are additive with each other.
 
+Crit multi is typically found on your weapon, on jewellery using Essence of Scorn (which is why the essence is typically
+  on the expensive side), on rare jewels, and on various passives on the passive tree.
+
+Increased Critical Damage support is often used by crit builds for a large amount of crit damage.
+Whether or not this is efficient for your build is mostly determined by how many other sources of crit multi you have.
+There are affixes that give crit multi to socketed skills as well, and this can act as a pseudo-link.
+
 There is such a thing as too much crit multi.
 If your crit multi becomes higher than your increased damage, then gaining increased damage becomes more beneficial
   than gaining additional crit multi.
-
+In general, you want to try to balance your increased damage and your crit multi.
 
 == DoT multi ==
 
@@ -332,7 +339,535 @@ Because of the limited sources of DoT multi, many damage over time builds end up
 
 Brief aside for ailments here, we will go over ailments in full in a later part.
 Ailments from critical strikes gain +50% to DoT multi. 
-Ailments can be made to use critical strike multiplier instead of DoT multi, but in turn have to scale critical strike chance.
+Ailments can be made to use critical strike multiplier instead of DoT multi using the Perfect Agony keystone, but in turn have to scale critical strike chance.
+
+
+== Double Damage ==
+
+Chance to deal Double Damage is a property of hits.
+When a hit has double damage, it deals 100% more damage.
+Double damage is loosely thematically tied to maces and melee skills.
+Values of double damage are typically low, so usually it's only worth going for at the high end when 
+  % damage and multis are beginning to have significant diminishing returns.
+
+Melee attack skills can easily get access to guaranteed double damage through Intimidating Cry,
+  which causes exerted melee attack skills to deal double damage.
+However, Intimidating Cry scales poorly with attack speed and action speed, since the buff
+  is applied for a flat number of attacks.
+
+Outside of Intimidating Cry, chance to deal double damage can be found at low values as unveiled or crafted mods on weapons, 5% chance for crafted mods, 7% for unveiled.
+There is also a delve drop-only mod giving 10% chance to deal double damage that has been gaining in popularity.
+
+Lethal Pride is a timeless jewel that can modify notable passive skills to also give double damage.
+This is a very popular source of double damage, and good Lethal Pride jewels can become incredibly expensive.
+
+Spells have a 10% chance to deal double damage is a very good synthesis implicit modifier on caster weapons.
+
+There are a couple sources of double damage on the base passive tree, but they aren't great.
+
+
+The most abundant non-weapon source of double damage is from cluster jewels.
+
+Force multiplier is a cluster jewel notable passive found on physical damage large cluster jewels, and this gives 5% double damage.
+Pressure Points is a cluster jewel notable passive found on critical strike chance medium cluster jewels, and this gives critical strikes a 5% chance to deal double damage.
+
+
+Double Damage is overridden by Triple Damage, but sources of triple damage are incredibly rare.
+The only one worth mentioning here is the Annihilating Light Quarterstaff, which gives elemental skills triple damage at the cost of severely reduced resistances
+  , which is a multiplicative penalty.
+This is commonly used on zhp bossers that just need to one-shot bosses and don't care about their health bar.
+
+
+== Attack and Cast speed ==
+
+For hit damage (and poison), you can do more damage to your enemy by hitting them more.
+
+For attacks, the base attack speed is determined by the equipped weapon.
+Each weapon base type has its own base attacks per second, which is then multiplied by local increases to attack speed.
+For ranged weapons, attack speed mods go up to 19%. 
+For melee weapons, attack speed mods go up to 27%, but the Deafening Essence of Zeal provides an attack speed mod of up to 30%. 
+Deafening Essence of Zeal is a nice damage bonus but usually makes weapons more difficult to craft.
+Some attacks will have a modified base attack speed, which is shown as Attack Speed: % of base. 
+Dual-wielding will alternate the attack speed between both weapons, with an innate bonus of 10% more attack speed.
+
+Afterwards, all applicable non-local increases and reductions to attack speed are added up and multiplied with the base attack speed.
+Finally, any modifiers to more/less attack speed are multiplied for the final attack speed.
 
 
 
+For spells, the base cast speed is determined by the skill gem, which is shown as a cast time.
+Spells do not have a way to directly modify their base cast time.
+It's easier to think of cast speed in terms of casts per second instead of cast time.
+If your skill has a cast time of 0.5, then that translates to 2 casts per second.
+If you have 15% increased cast speed, then you will cast 2.3 times per second.
+Like everything else, increases and reductions to cast speed are additive, and unique sources of more and less cast speed is multiplicative with each other.
+
+Because attacks are able to modify the base attack speed with local attack speed modifiers, 
+  and most sources of cast speed are numerically lower than their attack speed counterparts, traditionally it's easier
+  to increase attack speed greatly in comparison with cast speed.
+This is where trigger skills come in. 
+At the cost of additional investment and links, trigger skills change the limits of casting from relying on cast time to relying on cooldown, 
+  and for trigger skills such as cast on crit, relying on attack speed as well.
+This can be greatly beneficial with spells that naturally have a high base cast time. 
+However, in recent times, cast speed has become easier to increase, and also, trigger skills are beyond the scope of this video.
+
+
+
+Attack builds often use Feed the Fury - Fuel the Fight - Martial Prowess clusters to get attack speed.
+Feed the Fury gives 15% increased attack speed and 30% increased damage while leeching, which isn't a very difficult condition to fulfill.
+
+Arcane surge is a buff that grants 20% increased cast speed by default and is very easy to get.
+Usually, a low-level Arcane Surge support is used, supporting a movement skill like Frostblink or Flame Dash to easily get Arcane Surge. 
+There are a couple other ways to get Arcane Surge on hit as well, but usually it's a bit niche and for casters that can't spend mana for some reason (Blood Magic). 
+
+Another option for both attack and spell builds is to use a 12-passive large cluster jewel.
+Large cluster jewels have a suffix modifier that gives attack and/or cast speed for their specific skill/damage type.
+This rolls up to 3% attack/cast speed, which is modified to 4% with 35% increased effect on the jewel, giving a total
+  of 40% over 10 small passive points.
+In Mirage league, we are able to use Refracting Fogs to get two attack/cast speed suffixes on one cluster jewel for
+  skills that are tagged with a damage type,
+  to get a total of 80% over 10 small passive points.
+  
+
+Juggernaut's Ascendancy passive Undeniable gives 1% increased attack speed per 150 accuracy rating.
+This can be very powerful for dedicated accuracy stackers, which can reach over 150k accuracy.
+
+
+Repeats are functionally closely related to attack and cast speed.
+Repeats cause each skill use to perform the skill multiple times, performing the skill animation each time.
+This makes paying skill costs easier, as you get to pay the cost once but perform the skill multiple times.
+Any benefits of using a skill are also only applied once; this includes things like Rage, Frenzy charges on hit, and Intensity, which you only gain once per skill use.
+
+By default, since you're performing the skill animation for each repeat, your effective dps stays the same after adding a repeat, 
+  but sources of repeats also tend to give the skill a hefty % more attack/cast speed bonus.
+The main tradeoff here is more attack/cast speed, but you're locked into performing the skill animation multiple times.
+This tradeoff is typically worth it and sources of repeat tend to be a large damage boost.
+
+Greater Spell Echo makes spells repeat twice per cast and gives up to 62% more cast speed at level 3, as well as giving the repeated casts 14% more spell damage per repeat.
+Greater Spell Echo does not work on triggered spells, and access to it is one of the main upsides to self-casting.
+
+Greater Multistrike makes melee attack skills repeat three times per attack and gives up to 50% more attack speed at level 3, as well as ramping the damage per repeat.
+  
+
+Echoing Shrine gives an additional repeat to all skills, as well as 100% more cast speed and 100% more attack speed, and like most other base shrines the effect can be gotten
+  from the shrine belt, Golden Charlatan, and the Guardian ascendancy passive that gives a rotating shrine buff. 
+This effectively doubles your dps.
+Notably, Echoing Shrine applies to skills that can't normally repeat, such as movement skills.
+
+
+== Action Speed ==
+
+Action speed makes every animation in the game faster.
+Although it doesn't directly modify the numbers you see on the tooltip in terms of attack/cast time, it is essentially a more multiplier to cast speed, attack speed, and movement speed.
+Because of this, action speed is extremely desirable, but action speed stats are also extremely rare.
+
+The most easily accessible action speed is the increased action speed eldritch implicit on boots, which goes up to 6%.
+
+Tailwind is a buff that grants 8% increased action speed.
+Deadeye and Ascendant can get Tailwind from their ascendancy passives.
+Deadeye can gain up to 10 stacks of Gale Force, which increases tailwind effect by 100%.
+The other reliable way to get Tailwind is through the Hunter's influence mod on boots which gives Tailwind if you've dealt a critical strike recently, with up to 25% increased effect of tailwind as well, for up to 10% increased action speed.
+
+Because the boot slot is where most characters get their action speed, synthesised boots are typically very niche, since losing action speed is a very tough tradeoff for most builds.
+
+Sublime Vision gives 10% increased action speed while affected by Haste, but disables all other aura skills.
+This can be worth it for builds that already have enough damage and defenses and don't need other aura skills.
+
+Self-chill setups use Winterweave to reverse chill effect.
+These setups need some way to chill themselves.
+Fulcrum can reflect chills inflicted, which can be very powerful, as it allows any other debuff modifiers to chill you have to be reflected onto yourself.
+Otherwise, they typically use self-hits to take damage, and either convert it to cold, or use Call of the Void to allow the hit to chill themselves. 
+This can grant up to 30% increased action speed, or 40% increased action speed with reflected chills and the elementalist ascendancy passive Shaper of Winter.
+
+Acceleration Shrine grants 50% increased action speed, which can be increased further with shrine effect.
+As with other base shrines, this effect can be obtained from 
+  the shrine belt, Golden Charlatan, and the Guardian ascendancy passive that gives a rotating shrine buff. 
+
+
+== Hitting your Enemy ==
+
+Attack skills have the accuracy rating property, which is compared to the enemy's evasion to determine whether an attack hits or misses.
+Chance to hit has a minimum of 5% and a maximum of 100%.
+Typically, capping hit chance is a checkbox for all attack skills.
+This can require significant investment, depending on the build.
+
+Dexterity inherently gives 2 accuracy rating per point, so dexterity-aligned classes have an easier time capping their hit chance.
+
+Melee weapons can have the crafted prefix "Hits can't be evaded".
+This is pretty common to see, and represents a tradeoff between damage, as weapon prefixes are a significant source of damage, and capping hit chance without further investment.
+
+Occasionally, builds will take Resolute Technique, which grants hits cannot be evaded to your character, at the cost of no longer having critical strikes.
+Slam builds usually take this, typically at low investment, but occasionally also at higher investment.
+Armour-stackers often have this as a corrupted implicit.
+
+Precision grants +701 accuracy rating at level 20, and is a strong source of accuracy.
+
+Abyss jewels can roll up to +240 accuracy, jewellery can roll up to +480, and dexterity-based helmets and gloves can roll up to +600.
+
+Wand builds have the wand mastery which grants accuracy rating equal to their intelligence, which can be very good for int-stackers.
+
+Juggernaut's ascendancy passive Undeniable gives +500 accuracy rating as well as accuracy equal to twice your strength.
+This is often enough to reach hit chance without much further investment.
+
+After finding some amount of flat accuracy, some amount of % increased global accuracy can be useful to cap out hit chance.
+This is a very common stat on the passive tree.
+
+Spell skills do not use accuracy and always hit. This allows them to invest in other things, and is one of the reasons they are typically stronger and easier to scale in low-budget scenarios.
+
+
+== Block and Suppression ==
+
+Enemies can have a chance to block hits, with a default maximum of 75%, but this can be modified up to 90%.
+This mostly means that for attack builds, they will typically want to find some way to path to an attack mastery wheel and pick up "Monsters cannot Block your Attacks"
+
+Spells can also be blocked, but they don't really have great ways to mitigate this.
+The only real way to mitigate spell block is Block chance Reduction support, which is rarely ever used.
+Luckily, spell block on enemies is very rare.
+It is most common in Ultimatum and Expedition, with Expedition being the most brutal, as remnants can modify maximum block chance on enemies.
+
+
+Suppression is also an issue for spells.
+T16.5 and Nightmare maps can roll 100% chance to suppress for monsters, making them take 40% less damage from spells.
+This has no solution and is terrible game design.
+GGG please fix.
+
+
+= Enemy Properties = 
+
+Once your damage is actually applied to the enemy, there are a couple properties of the monster that matters for damage.
+
+== Increased damage taken ==
+
+Firstly is increased damage taken.
+
+Increased damage taken is granted by debuffs such as shock and wither, as well as some other aoe effects that affect enemies near you.
+Each source of increased damage taken is additive.
+Overall, increased damage taken is a powerful damage multiplier, applying to all relevant damage you deal.
+
+Shock is an elemental ailment and can be applied by hits that have a chance to shock (critical hits have a 100% chance to shock, ignite, and chill by default).
+Then, the hit's flat lightning damage is taken and compared to the monster's ailment threshold, which is typically equal to their maximum health for non-boss monsters,
+  and determines the base shock value.
+Then, the shock value is modified to increases/reductions to shock effect and (non-damaging) ailment effect.
+Finally, if the resulting shock value is more than 5%, the ailment is inflicted on the monster, giving them % increased damage taken based on the shock value.
+
+Typically, builds with little investment into lightning damage or shock will struggle to get a large shock value.
+Shock incentivizes large hits of lightning damage over a high quantity of hits.
+A typical high investment lightning damage build such as Spark can expect to inflict 20-40% shocks.
+
+The type of damage that determines shock's value can be changed through things like Elementalist's ascendancy passive Shaper of Storms, and the Shocking Conflux buff, which makes all damage apply shock.
+
+Oath of Spring is a Warden ascendancy passive that caps shock effect to 2% but allows shocks to stack up to 50 times.
+For builds that hit many times, such as Kinetic Blast, this often allows them to inflict 100% increased damage taken to an enemy.
+Shock duration can be useful for helping shock stacks last longer, as each shock has its own duration.
+
+For builds that can't inflict shocks effectively, Summon Skitterbots is a reservation skill that summons two invulnerable Skitterbots each with an aura that applies a 15% Shock and 10% Chill.
+The ailments they inflict are not affected by the player's increases/reductions to ailment effect, but the skill inherently scales the Skitterbots' ailment effect per level.
+Unbound Ailments support can increase the ailment effect, but will also increase the skill's reservation cost.
+These ailments do not count as being inflicted by the player for things like Yoke of Suffering, but works for things like The Taming, which check for ailments on the enemy.
+It should also be noted that Summon Skitterbots does have an aura tag, so it's disabled by Sublime Vision.
+
+Withered is a debuff that applies 6% increased chaos damage taken to the target and stacks up to 15 times.
+That's up to 90% increased chaos damage taken.
+Increasing the effect of withered can modify the % increased chaos damage taken per stack, but it is a very rare stat.
+Withered only affects chaos damage taken, and its power makes chaos damage one of the strongest damage types, next to lightning damage.
+Hits do not inherently have a chance to apply withered, so chaos builds need to find a way to apply withered.
+
+Withering Step applies up to 11 stacks of withered to nearby enemies. This can be useful if a build really can't find a good source of wither, or can't hit enough to effectively apply withered (for example, DoT builds).
+
+Withering Touch support gives supported skills 25% chance to apply withered on hit. However, the opportunity cost is huge, as it takes a support gem slot, so typically you want to put it on something you can trigger often instead.
+
+The most versatile way to get chance to apply withered is by gaining the Unholy Might buff, usually through Overwhelming Malice, which gives 10% chance to gain unholy might on critical strike.
+Unholy Might grants 25% chance to apply withered on hit for all skills, as well as 100% physical damage converted to chaos damage.
+
+
+
+Intimidate is a debuff that causes enemies to take 10% increased attack damage.
+Unnerve is a debuff that causes enemies to take 10% increased spell damage.
+They can both be obtained as an eldritch implicit or as an influenced explicit on gloves. 
+Bound By Destiny has mods that let you apply intimidate or unnerve to nearby enemies by meeting certain conditions.
+
+Intimidate can be obtained through the Rage Mastery, Intimidating Cry, as a Lethal Pride mod, and from various other sources.
+
+Unnerve is less common, but can be obtained through some cluster jewel passives that cause your curses to also unnerve.
+
+
+
+Some curses can cause the cursed enemy to take increased damage:
+
+Punishment is a hex curse spell that causes the cursed enemy to take increased damage at low life.
+
+
+Vulnerability is a hex curse spell that causes the cursed enemy to take increased physical damage.
+
+
+Sniper's Mark is a mark curse spell that causes the marked enemy to take increased damage from projectiles.
+For attack-based skills, this can be triggered automatically using Mark on Hit support.
+This scales with Mark effect.
+
+These skills scale with curse effect.
+
+
+
+Yoke of Suffering make enemies take up to 10% increased damage for each type of ailment you have inflicted on them, or 12% with a volatile vaal roll.
+This applies to non-elemental ailments as well, such as bleeding and poison, totalling up to 90% increased damage taken, or 108% with a volatile vaal roll.
+
+
+Helmets have an influenced suffix that gives Nearby Enemies take 9% increased Elemental Damage or Nearby Enemies take 12% increased physical damage.
+
+
+Cinderswallow Urn is a flask that makes ignites you inflict apply 10% increased damage taken to the enemy.
+
+
+Bottled Faith is a flask that makes Consecrated Ground you create apply 10% increased damage taken to the enemy.
+
+
+The Watcher's Eye has a mod that makes Consecrated Ground you create apply 10% increased damage taken to the enemy while you are affected by Zealotry.
+
+
+It's common for Ascendancy notables to apply increased damage taken to enemies as well.
+Some examples are:
+
+Inquisitor's ascendancy notables Augury of Penitence and Sanctuary.
+Champion's notable Worthy Foe.
+Ascendant's ascendancy notables Champion and Inquisitor. 
+
+
+
+Flesh and Stone is an aura that makes nearby enemies take up to 20% more physical damage from hits.
+Pride is an aura that makes nearby enemies take 19% more physical damage, ramping up to 39% over 4 seconds. 
+
+These are instances of "more damage taken", which is multiplicative with "increased damage taken", and unique sources of "more damage taken" are multiplicative with each other.
+
+
+
+== Resistances ==
+
+Elemental damage and chaos damage are affected by their respective resistances, which are properties of the monster.
+
+By default, maximum resistance is 75%, which means the damage taken by the damage type is lessened by 75%. 
+On the other hand, resistances can go negative, to a minimum of -200%, which means the enemy takes 200% more damage from the damage type 
+Resistances are increasingly beneficial for the user as the value goes up; a fire hit against an enemy with 50% fire resistance deals twice as much damage as a fire hit against an enemy with 75% fire resistance.
+As a result, lowering resistances even just a little bit can go a long way.
+
+
+
+Hexes and Exposure are the main way of directly lowering the resistances on an enemy.
+
+Each resistable damage type has a corresponding hex curse spell that lowers that specific resistance.
+There is also Elemental Weakness, which lowers all elemental resistances, but at a lower value than the more specialized curses.
+
+By default, the player has a curse limit of 1 and can apply up to one curse on each enemy, whether it's a hex or mark.
+Increasing the curse limit allows the use of multiple curses and can be a large damage increase.
+
+
+
+Exposures are debuffs that lower a specific elemental resistance.
+Only the strongest exposure of each damage type applies, and the default duration of exposure is 4 seconds.
+Exposures without a specified value default to -10% resistance.
+This default value can be modified through the elemental mastery, which makes exposures apply at least -18% resistance, or Elementalist's Mastermind of Discord ascendancy passive and the Ascendant's Elementalist ascendancy passive, which make exposures apply an extra -25% to resistances and -20% to resistances respectively.
+
+Sources of exposure are fairly common.
+They can be found on various unique items, glove eldritch implicits, passive masteries, and cluster jewel notables.
+
+At low investment and more restricted scenarios like ssf and gauntlet, you may see builds manually casting Wave of Conviction or Hydrosphere to apply an elemental exposure or Frost Bomb to apply cold exposure.
+
+Elemental Equilibrium is a niche way to apply exposure that removes exposure of the damage types you've dealt with the last hit and inflicts exposures of the damage types you haven't dealt with the last hit. 
+This is typically used when you have a non-hit source of damage, such as minions or damage over time.
+
+
+The Occultist ascendancy passive applies -20% to chaos resistance and -20% to cold resistance to nearby enemies.
+This is not exposure, so it stacks with cold exposure.
+
+
+
+There are also some ways to set monster elemental resistances to specific values.
+
+Original Sin converts all elemental damage to chaos damage and sets nearby enemies' chaos resistance to 0.
+This is incredibly potent and as chaos damage is inherently one of the strongest damage types, makes Original Sin one of the best and most sought after items in the game.
+
+Chieftain's ascendancy passive Ramako, Sun's Light sets nearby enemy monsters' fire resistance against damage over time to -20% while you are stationary.
+
+Doryani's Prototype sets the lightning resistance of nearby enemies to be equal to the wearer's, so you can set nearby enemies' lightning resistance down to -200%.
+Using Doryani's Prototype is a significant sacrifice of defenses, as it takes up the body armour slot and makes your lightning resistance not affect lightning damage.
+However, Doryani's Prototype can be a very strong option in the right situation.
+In Mercenaries League, you could put Doryani's Prototype on your mercenary and also make them effectively immortal, and this was extremely broken.
+Although Doryani's Prototype isn't super viable in the current meta, it's worth keeping Doryani's Prototype in mind in the future as the meta shifts and more options arise.
+
+
+
+
+Hits can gain chance to invert resistances, which multiplies the target's resistance by -1.
+This is useful for builds that don't want to invest much into lowering resistance, but also don't want to hit a brick wall against the occasional enemy with particularly high resistances.
+This stat is very rare.
+Most builds that use invert opt to get it through the Elemental Mastery, which gives "Hits have 15% to treat Enemy Monster Elemental Resistances as inverted."
+Invert the Rules support is a powerful new option to get invert chance as well.
+
+Other than those, Rakiata's Dance and Voltaxic Rift are unique weapons that give guaranteed inversion for elemental and chaos damage respectively.
+
+Inversion happens after subtractions to resistance, so it's countersynergistic to the hexes and exposures previously mentioned.
+Although it works with penetration, as penetration is applied after inversion, inversion does lower the effectiveness of penetration, which may be something to keep in mind.
+
+
+
+Resistance penetration is a property of hits. Damage over time cannot benefit from penetration.
+Penetration allows the hit to treat the enemies' resistance as lower than the actual value.
+Because it does not directly modify the target's resistance, this can reduce the calculated resistance to under -200%, which is the normal cap for negative resistances.
+It also plays well with things that set the target's resistance to a specific value and inversion.
+That said, penetration does get less efficient as the target's resistance gets lower.
+
+For example, if you use Doryani's Prototype to set the enemies' lightning resistance to -200%, and your hits have penetrates 25% elemental resistances,
+  your hits will treat the enemies' lightning resistance as -225%.
+However, going from -200% to -225% lightning resistance is clearly much less impactful than going from 0% lightning resistance to -25%.
+
+Penetration is a decently common stat.
+Sources of penetration can be found on the passive tree, on weapon veiled mods, on Watcher's Eye mods, on support gems, and a few other places.
+
+Enmity's Embrace is a notable example because of the ability to get up to 200% fire resistances from one ring.
+However, it requires significant investment.
+
+
+
+Hits can also be made to ignore resistances.
+This makes the hit skip resistance calculation entirely, making the enemies' effective resistances 0% and rendering reductions, inversions, and penetration completely useless.
+This makes it a very efficient way to solve the problem of enemies with high resistances, at the cost of not being able to scale your damage through resistance reduction and penetration.
+Often, this tradeoff is worth it.
+
+There are three main sources of ignore resistances.
+The Inquisitor's ascendancy passive Inevitable Judgement causes critical strikes to ignore enemy elemental resistances.
+The Banishing Blade is a sword base item from Heist that causes attack critical strikes to ignore enemy elemental resistances.
+Unholy Trinity grants up to a 100% chance to ignore lightning and chaos resistance at level 4, while unholy resonance is stacked, but requires the skill to deal a 
+  mix of two of lightning, physical, or chaos damage.
+  
+ 
+ 
+== Physical Damage Reduction ==
+
+Typically there are two sources of Physical Damage Reduction (PDR), for monsters: Armour and Endurance Charges.
+Monsters get 15% PDR per endurance charge.
+This PDR applies to both hits and damage over time.
+
+Monsters can also have armour.
+Armour grants PDR based on the amount of damage the hit deals.
+The larger the hit, the less PDR is granted.
+The more Armour the monster has, the more PDR they will get.
+
+Hits can get a % chance to ignore enemy physical damage reduction.
+There are a fair amount of sources of ignore pdr on the passive tree.
+There is a cluster jewel notable that gives 50% chance to ignore enemy pdr.
+Generally, it's not very hard to get to hits have 100% chance to ignore enemy pdr.
+
+Armour does not apply to Physical Damage over Time, so you only really need to worry about endurance charges. 
+For DoTs, ignores do not work, and you need to find sources of debuffs that give -pdr to enemies.
+The most common source is the Crushed debuff which applies -15% additional pdr.
+
+
+
+== Damage Types and you ==
+
+There are five damage types in total in PoE: physical, lightning, cold, fire, and chaos.
+Each of them are intrinsically tied to different elements of the game.
+
+Physical damage is thematically tied to blood, recoil damage, and knockback.
+
+Lightning damage is thematically tied to intelligence, volatility, higher than average base damage values with larger roll-ranges, 
+  magic resources such as energy shield and mana, critical strike chance, and hit damage (the player does not get any skills with lightning damage over time).
+Because of its higher-than-average flat damage values and its scaling with volatility and lucky hits, lightning damage is typically considered the best damage type.
+
+Cold damage is tied to dexterity and occult-themed debuffs that hinder or damage the enemy.
+
+Fire damage is thematically tied to strength, melee damage, particularily the Karui-themed Warcry-powered fire buffs, holy damage, and life.
+There are few skills that scale with life, but many of the ones that do are typically fire damage based, such as Righteous Fire or Burning Arrow of Vigour.
+
+Chaos damage is thematically tied to occult-themed debuffs as well, as well as sacrifice themes, such as Sacrifice Support, Forbidden Rite.
+
+Hopefully this gives a big-picture look at the colorful damage landscape of Path of Exile 1.
+
+
+
+== Damaging Ailments ==
+
+There are three damaging ailments in PoE1: Bleed, Ignite, and Poison.
+
+Damaging ailments calculate damage off the flat damage of the hit, 
+  so specific modifiers such as % attack damage, % melee damage, % spell damage, crit multi, and double damage will generally not apply.
+  
+Damaging ailments each have their own duration.
+They can be made to "deal damage faster," which increases dps but reduces duration,
+  requiring the player to reapply the ailment more option.
+  
+Damaging ailments caused by a critical strike naturally has an additional +50% damage over time multiplier.
+  
+As you will see, each ailment has its own version of AoE and clearing.
+
+
+=== Bleed ===
+
+Bleed is an ailment that can be applied by physical attack damage.
+Bleed deals physical damage over time based on the flat physical damage of the inflicting hit.
+By default, this is 70% of the flat physical damage of the inflicting hit per second.
+Bleeding deals triple the damage if the enemy is moving or has been Aggravated, so 210% of the flat physical damage per second.
+
+Currently, only attacks can gain chance to bleed.
+Attack hits do not naturally have a chance to bleed.
+
+By default, the duration of Bleeding is 5 seconds.
+While Bleeding can be inflicted multiple times on a target, only the highest damage application will deal damage at any given time.
+
+Because of this, Bleeding favours large slow hits and scales poorly with attack speed.
+
+Bleeding scales off of % global physical damage and % physical dot multiplier.
+
+Crimson Dance is a keystone that gives up the bonus damage on Aggravate and moving enemies in exchange for allowing 
+  Bleed to stack up to 8 times.
+When you have all 8 stacks on an enemy, you have effectively 280% of the attack's average physical damage as damage over time. 
+However, this means you need investment in attack speed, and your hits need to deal consistent damage (while before a high damage roll would overwrite a low damage roll).
+
+For clearing, there are multiple sources of "Bleeding Enemies you kill Explode."
+However, these explosions do not prolifierate, since the explosions cannot gain chance to bleed.
+
+
+=== Ignite ===
+
+Ignite is an elemental ailment that can be applied by fire damage.
+As an elemental ailment, spell and attack hits with a fire damage component naturally have a 100% chance to ignite on critical strike.
+
+Ignite has a base burning damage of 90% of the flat fire damage of the hit over time.
+
+By default, Ignite does not stack and has a base duration of Ignite.
+Similar to Bleeding, Ignite favours large slow hits and scales poorly with skill speed and action speed.
+
+The Emberwake ring allows Ignites to stack an additional time per Emberwake ring equipped, at a significant damage cost.
+This is often not worth it.
+
+Ignite scales with % burning damage, fire damage over time multiplier, and fire damage.
+
+For clearing, Ignite has proliferation, which causes ignites on enemies to spread to nearby enemies.
+Its nearly unconditional ability to spread makes it the strongest clearing potential out of the damaging ailments.
+
+However, Ignite is significantly hindered by the common map mod "monsters have % chance to avoid elemental ailments,"
+  which greatly hinders its viability.
+  
+
+=== Poison ===
+
+Poison is a damaging ailment that can be applied by chaos and physical damage.
+Unlike Bleeding and Ignite, Poison can stack by default and there is no limit to the number of stacks an enemy has.
+Each stack has its own duration and deals its own damage.
+
+This means that Poison's dps scales with skill speed and action speed as well as ailment and poison duration.
+Poison deals chaos damage over time and scales with chaos damage and chaos damage over time.
+Because of the number of scaling vectors available to poison by default, it's a great ailment for doing large amounts of damage on a budget.
+
+By default, each stack of Poison has a base chaos damage over time component of 30% of the flat physical and chaos damage of the applying hit.
+
+For clearing, Poison has various sources that cause poisoned enemies to poison nearby enemies upon their death.
+This is far weaker than proliferation since it requires an enemy to die, but can still be quite strong, especially if large poisons are being applied.
+
+
+
+== Damage Conversion and gained as extra ==
+
+
+
+
+== DoT cap ==

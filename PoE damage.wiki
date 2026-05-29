@@ -867,7 +867,47 @@ This is far weaker than proliferation since it requires an enemy to die, but can
 
 == Damage Conversion and gained as extra ==
 
+Damage conversion in PoE1 works differently than in PoE2.
+
+Damage can be converted in one direction, and in one direction only:
+
+Physical -> Lightning -> Cold -> Fire -> Chaos.
+
+In Path of Exile 1, when you convert damage from one damage type, say cold, to another damage type, say fire,
+  the resulting converted fire damage will benefit from both modifiers to % cold damage as well as % fire damage.
+Each damage can still only benefit from each line of text once though; in the previous example where cold damage is being converted to fire damage, a
+  stat that read 10% increased fire and cold damage would only apply once to the converted damage, but if an item had 20% increased fire damage and 20% increased cold damage on different lines
+  then it could benefit from both.
+This can potentially allow for your damage to benefit from a lot more modifiers.
+However, in modern times, this doesn't really matter as much, as every damage type is able to stack many % increased damage modifiers already,
+  and the few damage-type specific % more damage modifiers aren't significant enough to need conversion for.
+  
+
+Nowadays, damage is usually converted in order to make use of useful enemy-side properties; for example, the Original Sin converts all elemental damage to chaos damage, which can then
+  be affected by withered, the debuff that applies up to 90% increased chaos damage taken to the enemy.
+Physical damage is also typically converted so that it can benefit from reductions to enemy resistances and penetration effects.
+
+Damage conversion is also used to allow for the use of Trinity Support and Unholy Trinity Support, both of which are very powerful supports.
+
+One unique thing about damage conversion in PoE1 is the double-dipping you can get with the stat "Gain non-chaos damage as extra chaos damage" and "gain elemental damage as extra chaos damage".
+This actually does apply to the damage each time it's converted.
+So in theory if you have 100% of damage converted from physical to lightning to cold to fire, and you have something like "Gain 5% of non-chaos damage as extra chaos damage,"
+  then that stat is applied four times to the converted damage.
+In practice though, this is incredibly difficult to do, and typically not worth it.
+One of the main reasons is because conversion of Lightning damage to Cold damage is basically only available from the unique ring "Call of the Brotherhood", and you'd have to wear two to fully convert.
+With how hotly contested the ring slots are now due to Reflecting Mist and Heist bases, this is difficult to justify.
+This was used in the past for massive dps using the Eternity Shroud, but in modern times, the build requirements of the Eternity Shroud makes it too difficult to pull off.
 
 
 
 == DoT cap ==
+
+Damage over time has a bad rep in Path of Exile because of the DoT cap.
+Because of some technical limitations on the server-side, damage over time has a post-mitigation limit of 35.8 million damage per second.
+However, this cap is post-mitigation, so it applies after resistances, endurance charges, and any inherent damage reduction, such as those found from delirium fog or uber bosses, or toughness from Titanic Scarab.
+35.8 million post-mitigation dps is enough damage to take down nearly anything in the game.
+It would only have trouble with monsters with an insane amount of health, which is usually just in Deep Delve, where monster health can scale to 2 billion.
+However, this does mean that damage over time effects can have difficulties when trying to skip boss phases such as Uber Maven, where enough damage needs to be dealt within the first tick.
+But besides exceptional cases, as long as you keep scaling your damage past what PoB tells you is the DoT cap, you should do just fine.
+
+For example, if you're doing Titanic Scarab with 100% delirium on a 70% pack size map, you'd need almost 600 million premitigation dps to hit the dot cap after calculating toughness and delirium fog damage reduction.
